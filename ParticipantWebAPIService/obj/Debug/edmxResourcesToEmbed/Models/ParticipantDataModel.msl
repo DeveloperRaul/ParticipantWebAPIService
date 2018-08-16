@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ParticipantsDbModelStoreContainer" CdmEntityContainer="ParticipantsDbEntities">
+    <EntitySetMapping Name="Participants">
+      <EntityTypeMapping TypeName="ParticipantsDbModel.Participants">
+        <MappingFragment StoreEntitySet="Participants">
+          <ScalarProperty Name="initials" ColumnName="initials" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="preferredLanguage" ColumnName="preferredLanguage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
